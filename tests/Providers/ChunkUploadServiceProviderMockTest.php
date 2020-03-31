@@ -1,28 +1,28 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\ChunkTests\Handler;
+namespace JedGueruela\LaravelChunkUpload\ChunkTests\Handler;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Filesystem\Filesystem as FilesystemContract;
-use Kladislav\LaravelChunkUpload\FileSystemDriverMock;
+use JedGueruela\LaravelChunkUpload\FileSystemDriverMock;
 use Mockery;
 use Mockery\Mock;
-use Kladislav\LaravelChunkUpload\Commands\ClearChunksCommand;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Config\FileConfig;
-use Kladislav\LaravelChunkUpload\Handler\ChunksInRequestSimpleUploadHandler;
-use Kladislav\LaravelChunkUpload\Handler\ChunksInRequestUploadHandler;
-use Kladislav\LaravelChunkUpload\Handler\ContentRangeUploadHandler;
-use Kladislav\LaravelChunkUpload\Handler\DropZoneUploadHandler;
-use Kladislav\LaravelChunkUpload\Handler\HandlerFactory;
-use Kladislav\LaravelChunkUpload\Handler\NgFileUploadHandler;
-use Kladislav\LaravelChunkUpload\Handler\ResumableJSUploadHandler;
-use Kladislav\LaravelChunkUpload\Handler\SingleUploadHandler;
-use Kladislav\LaravelChunkUpload\ServiceProvider;
-use Kladislav\LaravelChunkUpload\Receiver\FileReceiver;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Commands\ClearChunksCommand;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Config\FileConfig;
+use JedGueruela\LaravelChunkUpload\Handler\ChunksInRequestSimpleUploadHandler;
+use JedGueruela\LaravelChunkUpload\Handler\ChunksInRequestUploadHandler;
+use JedGueruela\LaravelChunkUpload\Handler\ContentRangeUploadHandler;
+use JedGueruela\LaravelChunkUpload\Handler\DropZoneUploadHandler;
+use JedGueruela\LaravelChunkUpload\Handler\HandlerFactory;
+use JedGueruela\LaravelChunkUpload\Handler\NgFileUploadHandler;
+use JedGueruela\LaravelChunkUpload\Handler\ResumableJSUploadHandler;
+use JedGueruela\LaravelChunkUpload\Handler\SingleUploadHandler;
+use JedGueruela\LaravelChunkUpload\ServiceProvider;
+use JedGueruela\LaravelChunkUpload\Receiver\FileReceiver;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 class ChunkUploadServiceProviderMockTest extends Mockery\Adapter\Phpunit\MockeryTestCase
 {

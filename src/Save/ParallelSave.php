@@ -1,17 +1,17 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Save;
+namespace JedGueruela\LaravelChunkUpload\Save;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Exceptions\ChunkSaveException;
-use Kladislav\LaravelChunkUpload\Exceptions\MissingChunkFilesException;
-use Kladislav\LaravelChunkUpload\FileMerger;
-use Kladislav\LaravelChunkUpload\Handler\AbstractHandler;
-use Kladislav\LaravelChunkUpload\ChunkFile;
-use Kladislav\LaravelChunkUpload\Handler\Traits\HandleParallelUploadTrait;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use JedGueruela\LaravelChunkUpload\Exceptions\MissingChunkFilesException;
+use JedGueruela\LaravelChunkUpload\FileMerger;
+use JedGueruela\LaravelChunkUpload\Handler\AbstractHandler;
+use JedGueruela\LaravelChunkUpload\ChunkFile;
+use JedGueruela\LaravelChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ParallelSave.

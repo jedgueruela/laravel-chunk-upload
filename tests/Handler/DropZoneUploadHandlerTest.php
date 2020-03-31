@@ -1,12 +1,12 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\ChunkTests\Handler;
+namespace JedGueruela\LaravelChunkUpload\ChunkTests\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use PHPUnit\Framework\TestCase;
-use Kladislav\LaravelChunkUpload\Config\FileConfig;
-use Kladislav\LaravelChunkUpload\Handler\DropZoneUploadHandler;
+use JedGueruela\LaravelChunkUpload\Config\FileConfig;
+use JedGueruela\LaravelChunkUpload\Handler\DropZoneUploadHandler;
 
 class DropZoneUploadHandlerTest extends TestCase
 {

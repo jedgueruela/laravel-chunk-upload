@@ -1,8 +1,8 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Handler;
+namespace JedGueruela\LaravelChunkUpload\Handler;
 
-use Kladislav\LaravelChunkUpload\Exceptions\ChunkInvalidValueException;
+use JedGueruela\LaravelChunkUpload\Exceptions\ChunkInvalidValueException;
 use Illuminate\Http\Request;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload;
+namespace JedGueruela\LaravelChunkUpload;
 
 class FileSystemDriverMock
 {

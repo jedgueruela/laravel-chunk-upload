@@ -1,11 +1,11 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Handler;
+namespace JedGueruela\LaravelChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Handler\Traits\HandleParallelUploadTrait;
 
 class DropZoneUploadHandler extends ChunksInRequestUploadHandler
 {

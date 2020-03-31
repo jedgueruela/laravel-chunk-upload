@@ -1,13 +1,13 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Save;
+namespace JedGueruela\LaravelChunkUpload\Save;
 
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Exceptions\ChunkSaveException;
-use Kladislav\LaravelChunkUpload\FileMerger;
-use Kladislav\LaravelChunkUpload\Handler\AbstractHandler;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use JedGueruela\LaravelChunkUpload\FileMerger;
+use JedGueruela\LaravelChunkUpload\Handler\AbstractHandler;
 use Illuminate\Http\UploadedFile;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 class ChunkSave extends AbstractSave
 {

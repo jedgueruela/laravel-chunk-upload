@@ -1,12 +1,12 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Handler;
+namespace JedGueruela\LaravelChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Save\AbstractSave;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Save\AbstractSave;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 use Session;
 
 /**

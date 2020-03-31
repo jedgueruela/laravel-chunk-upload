@@ -1,11 +1,11 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Commands;
+namespace JedGueruela\LaravelChunkUpload\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Kladislav\LaravelChunkUpload\ChunkFile;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\ChunkFile;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class ClearChunksCommand extends Command

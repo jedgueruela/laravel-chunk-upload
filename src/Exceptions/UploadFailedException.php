@@ -1,6 +1,6 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Exceptions;
+namespace JedGueruela\LaravelChunkUpload\Exceptions;
 
 use Throwable;
 

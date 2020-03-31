@@ -1,16 +1,16 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Receiver;
+namespace JedGueruela\LaravelChunkUpload\Receiver;
 
 use Illuminate\Http\Request;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Exceptions\UploadFailedException;
-use Kladislav\LaravelChunkUpload\Handler\AbstractHandler;
-use Kladislav\LaravelChunkUpload\Save\AbstractSave;
-use Kladislav\LaravelChunkUpload\Save\ChunkSave;
-use Kladislav\LaravelChunkUpload\Save\SingleSave;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Exceptions\UploadFailedException;
+use JedGueruela\LaravelChunkUpload\Handler\AbstractHandler;
+use JedGueruela\LaravelChunkUpload\Save\AbstractSave;
+use JedGueruela\LaravelChunkUpload\Save\ChunkSave;
+use JedGueruela\LaravelChunkUpload\Save\SingleSave;
 use Illuminate\Http\UploadedFile;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 class FileReceiver
 {

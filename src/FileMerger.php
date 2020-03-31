@@ -1,8 +1,8 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload;
+namespace JedGueruela\LaravelChunkUpload;
 
-use Kladislav\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use JedGueruela\LaravelChunkUpload\Exceptions\ChunkSaveException;
 
 class FileMerger
 {

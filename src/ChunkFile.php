@@ -1,8 +1,8 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload;
+namespace JedGueruela\LaravelChunkUpload;
 
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class Chunk.

@@ -1,18 +1,18 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload;
+namespace JedGueruela\LaravelChunkUpload;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider as BasicServiceProvider;
-use Kladislav\LaravelChunkUpload\Commands\ClearChunksCommand;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Config\FileConfig;
-use Kladislav\LaravelChunkUpload\Handler\HandlerFactory;
-use Kladislav\LaravelChunkUpload\Receiver\FileReceiver;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Commands\ClearChunksCommand;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Config\FileConfig;
+use JedGueruela\LaravelChunkUpload\Handler\HandlerFactory;
+use JedGueruela\LaravelChunkUpload\Receiver\FileReceiver;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 class ServiceProvider extends BasicServiceProvider
 {

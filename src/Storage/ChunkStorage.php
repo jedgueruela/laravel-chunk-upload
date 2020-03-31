@@ -1,14 +1,14 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Storage;
+namespace JedGueruela\LaravelChunkUpload\Storage;
 
 use Illuminate\Contracts\Filesystem\Filesystem as FilesystemContract;
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Collection;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\FilesystemInterface;
-use Kladislav\LaravelChunkUpload\ChunkFile;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\ChunkFile;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
 use RuntimeException;
 
 class ChunkStorage

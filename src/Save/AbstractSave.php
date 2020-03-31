@@ -1,9 +1,9 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Save;
+namespace JedGueruela\LaravelChunkUpload\Save;
 
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Handler\AbstractHandler;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Handler\AbstractHandler;
 use Symfony\Component\HttpFoundation\File\File;
 use Illuminate\Http\UploadedFile;
 

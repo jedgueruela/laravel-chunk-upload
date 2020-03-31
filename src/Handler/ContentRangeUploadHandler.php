@@ -1,14 +1,14 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Handler;
+namespace JedGueruela\LaravelChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Kladislav\LaravelChunkUpload\Exceptions\ChunkSaveException;
-use Kladislav\LaravelChunkUpload\Save\ChunkSave;
-use Kladislav\LaravelChunkUpload\Config\AbstractConfig;
-use Kladislav\LaravelChunkUpload\Exceptions\ContentRangeValueToLargeException;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use JedGueruela\LaravelChunkUpload\Save\ChunkSave;
+use JedGueruela\LaravelChunkUpload\Config\AbstractConfig;
+use JedGueruela\LaravelChunkUpload\Exceptions\ContentRangeValueToLargeException;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ContentRangeUploadHandler.

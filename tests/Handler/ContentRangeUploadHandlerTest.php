@@ -1,13 +1,13 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\ChunkTests\Handler;
+namespace JedGueruela\LaravelChunkUpload\ChunkTests\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use PHPUnit\Framework\TestCase;
-use Kladislav\LaravelChunkUpload\Config\FileConfig;
-use Kladislav\LaravelChunkUpload\Exceptions\ContentRangeValueToLargeException;
-use Kladislav\LaravelChunkUpload\Handler\ContentRangeUploadHandler;
+use JedGueruela\LaravelChunkUpload\Config\FileConfig;
+use JedGueruela\LaravelChunkUpload\Exceptions\ContentRangeValueToLargeException;
+use JedGueruela\LaravelChunkUpload\Handler\ContentRangeUploadHandler;
 
 class ContentRangeUploadHandlerTest extends TestCase
 {

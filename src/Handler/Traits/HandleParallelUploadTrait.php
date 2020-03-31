@@ -1,10 +1,10 @@
 <?php
 
-namespace Kladislav\LaravelChunkUpload\Handler\Traits;
+namespace JedGueruela\LaravelChunkUpload\Handler\Traits;
 
-use Kladislav\LaravelChunkUpload\Exceptions\ChunkSaveException;
-use Kladislav\LaravelChunkUpload\Save\ParallelSave;
-use Kladislav\LaravelChunkUpload\Storage\ChunkStorage;
+use JedGueruela\LaravelChunkUpload\Exceptions\ChunkSaveException;
+use JedGueruela\LaravelChunkUpload\Save\ParallelSave;
+use JedGueruela\LaravelChunkUpload\Storage\ChunkStorage;
 
 trait HandleParallelUploadTrait
 {
