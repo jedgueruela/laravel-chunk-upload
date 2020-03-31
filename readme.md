@@ -22,13 +22,13 @@ composer require jedgueruela/laravel-chunk-upload
 **2. Add the service provider (Laravel 5.4 and below - supports Auto discovery)**
 
 ```php
-\Kladislav\LaravelChunkUpload\ServiceProvider::class
+\JedGueruela\LaravelChunkUpload\ServiceProvider::class
 ```    
 
 **3. Publish the config (Laravel 5.2 and above, optional)**
 
 ```
-php artisan vendor:publish --provider="Kladislav\LaravelChunkUpload\ServiceProvider"
+php artisan vendor:publish --provider="JedGueruela\LaravelChunkUpload\ServiceProvider"
 ```
 
 
