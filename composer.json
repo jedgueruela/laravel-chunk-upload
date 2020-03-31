@@ -1,5 +1,5 @@
 {
-  "name": "kladislav/laravel-chunk-upload",
+  "name": "jedgueruela/laravel-chunk-upload",
   "description": "Service for chunked upload with several js providers",
   "license": "MIT",
   "keywords": [
@@ -10,8 +10,8 @@
   "type": "library",
   "authors": [
     {
-      "name": "Vladislav Kim",
-      "email": "kim@mediacube.network"
+      "name": "Jedidiah Gueruela",
+      "email": "jgueruela@gmail.com"
     }
   ],
   "require": {
@@ -27,12 +27,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Kladislav\\LaravelChunkUpload\\": "src"
+      "JedGueruela\\LaravelChunkUpload\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Kladislav\\LaravelChunkUpload\\Tests\\": "tests"
+      "JedGueruela\\LaravelChunkUpload\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Kladislav\\LaravelChunkUpload\\ServiceProvider"
+        "JedGueruela\\LaravelChunkUpload\\ServiceProvider"
       ]
     }
   },
